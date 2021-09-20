@@ -7,7 +7,12 @@ import Link from 'next/link'
 const name = 'Vitor'
 export const siteTitle = 'Next.js WebSite Simples'
 
-export default function Layout({ children, home }) {
+interface PageLayout {
+  children?: any;
+  home?: any;
+}
+
+export default function Layout({ children, home }: PageLayout) {
   return (
     <div className={styles.container}>
       <Head>
