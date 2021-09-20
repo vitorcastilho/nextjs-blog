@@ -1,3 +1,8 @@
+import Layout from './../components/layout'
 export default function Custom404() {
-  return <h1>404 - Eita pega! Essa página não existe, hein!</h1>;
+  return (
+    <Layout>
+      <h1>404 - Ops! This page does not exist!</h1>
+    </Layout>
+  );
 }

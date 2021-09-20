@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           name="descrição"
-          content="Aprenda a construir um site pessoal usando Next.js"
+          content="Learn how to build a personal website using Next.js"
         />
         <meta
           property="og:image"
@@ -73,5 +73,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
